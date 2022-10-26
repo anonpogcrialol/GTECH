@@ -1,0 +1,74 @@
+/*codigo utilizado para personalizar os codigos presentes no body*/
+body{
+    background-image: linear-gradient(to right, rgb(184, 0, 184) , rgb(0, 110, 255));;   
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+/*codigo utilizado para personalizar os codigos presentes no classe chamada area-login*/
+.area-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+/*codigo utilizado para personalizar os codigos presentes na classe chamda login*/
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 10px;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+/*codigo utilizado para personalizar os codigos presentes na div class login na parte do formulario*/
+.login form{
+    display: flex;
+    flex-direction: column;   
+    width: 100%;
+   
+}
+
+/*codigo utilizado para personalizar os codigos presentes na div class login na parte do input*/
+.login input{
+    margin-top: 10px;
+    background-color: #4e4e53;
+    padding-left: 10px;
+    color: #cbd0f7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+/*codigo utilizado para personalizar as imagems presentes na div class "Login"*/
+.login img{
+    width: 65px;
+    height: auto;
+}
+/*codigo utilizado para personalizar os comandos com o codigo de placeholder na div class "Login"*/
+.login::placeholder{
+    color: #cbd0f7;
+    font-size: 14px;
+}
+/*codigo usado para personalizar comandos do form que tenha o type submite*/
+form [type="submit"]{
+    display: block;
+    background-color: #800080;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* codigo utilizado para personalizar os comandos que estão comandos P*/
+P{
+    color: #cbd0f7;
+}
+/* Codigo utilizado para personalizar os comandos que estão dentro do comando A*/
+a{
+    color: #800080;
+    text-decoration: none;
+    margin-left: 10px;
+}

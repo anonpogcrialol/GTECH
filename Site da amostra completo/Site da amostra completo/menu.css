@@ -1,0 +1,126 @@
+/* comando utilizado para personalizar todos os elementos do site*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
+
+/* comando utilizado para personalizar todos os elementos dentro da header*/
+header{
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+/* comando utilizado para personalizar todos os elementos dentro da classe nav-bar*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe logo*/
+.logo {
+    display: flex;
+    align-items: center;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe logo e que estão dentro do codigo <h1>*/
+.logo h1 {
+    color: #fff;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe nav-list*/
+.nav.list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe nav-item*/
+.nav-item {
+    margin: 0 15px;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe nav-link*/
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* comando utilizado para personalizar todos os elementos dentro da classe login-button que estejam dentro do codigo <button>*/
+
+.login-button button{
+    border: none;
+    background-color: #8f00a1;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe login-button que estejam dentro do codigo <button> e do codigo <a>*/
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+
+}
+/* comando utilizado para personalizar todos os elementos dentro da classe mobile-menu-icon*/
+.mobile-menu-icon {
+    display: none;
+}
+
+/* comando utilizado para personalizar todos os elementos dentro da classe mobile-menu*/
+.mobile-menu {
+    display: none;
+}
+
+/* comando responsavel por personaliza diferentes tipos de media, nesse caso esta modificando a max-width da screem*/
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+	/* comando utilizado para personalizar todos os elementos dentro da classe nav-item*/
+    .nav-item {
+        display: none;
+    }
+/* comando utilizado para personalizar todos os elementos dentro da classe login-button*/
+    .login-buton {
+        display: none;
+    }
+	/* comando utilizado para personalizar todos os elementos dentro da classe mobile-menu-icon*/
+    .mobile-menu-icon {
+        display: block;
+    }
+/* comando utilizado para personalizar todos os elementos dentro da classe  mobile-menu-icon  que estejam dentro do codigo <button>*/
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+	/* comando utilizado para personalizar todos os elementos dentro da classe  mobile-menu-icon  que estejam dentro do codigo <ul>*/
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+	/* comando utilizado para personalizar todos os elementos dentro da classe mobile-menu e da classe nav-item*/
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+	/* comando utilizado para personalizar todos os elementos dentro da classe mobile-menu e da classe login-button*/
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+/* comando utilizado para personalizar todos os elementos dentro da classe  mobile-menu e da classe login-button  que estejam dentro do codigo <button>*/
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+
+ 
+
+
+}

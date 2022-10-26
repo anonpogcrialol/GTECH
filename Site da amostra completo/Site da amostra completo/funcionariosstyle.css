@@ -1,0 +1,70 @@
+
+
+
+/* comando utilizado para personalizar todos os elementos do site*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* personalizar os comandos em HTML dentro do body*/
+html, body {
+    height: 100;
+}
+/* personalizar os comandos que estão dentro do body*/
+body {
+    background-image: linear-gradient(to right, rgb(184, 0, 184) , rgb(0, 110, 255));;   
+}
+/* personalizar os comandos que estão dentro de H1*/
+h1 {
+    display: flex;
+    justify-content: center;
+
+    margin: 5rem 0  5rem 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+/* personalizar os comandos que estão dentro da classe cards*/
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 980px;
+    margin: 0 auto;
+    grid-gap: 40px;
+}
+/* personalizar os comandos que estão dentro da classe card*/
+.card {   
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.473), rgb(255, 255, 255));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.233);
+}
+/* personalizar os elementos que estão dentro da classe card que estão dentro da classe user*/
+.card .user {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+
+    margin-bottom: 15px;
+}
+/* personalizar os comandos que estão dentro da classe card que estão dentro do comando H3*/
+
+.card h3{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+/* personalizar os elementos que estão dentro do comando P*/
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-size: 18px;
+}
+

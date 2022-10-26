@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Invaders</title>
+    <link rel="shortcut icon" href="#" />
+    <!-- Personalizando a página-->
+    <style>
+      canvas {
+        box-shadow: black 20px 10px 50px;
+      }
+      h1 {
+        color: white;
+        margin: 0px;
+        margin-bottom: 10px;
+        font-size: 2.9em;
+        font-family: "Poppins";
+      }
+      body {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+        height: 100vh;
+        background-image: url(images/backgdmn.png);
+      }
+      .f5 a {
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    padding: 1.5rem;
+    margin-top: 15%;
+    margin-left: 23%;
+    border: 1px solid white;
+    min-width: 3rem;
+    transition: .5s ease-in-out;
+  }
+  
+  a:hover {
+    background-color: lightgray;
+  }
+    </style>
+  </head>
+  <body>
+    <div class="f5">
+    <a href="index.html">Reiniciar!</a>
+    </div>
+    <h1>Space Invaders</h1>
+    <canvas id="game"></canvas>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

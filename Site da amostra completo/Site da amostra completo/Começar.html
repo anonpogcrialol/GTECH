@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="Logoamostra(versão_png).png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSScomeçar.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Login G-TECH</title>
+</head>
+<body>
+    <header> <!--Comando utilizado para criação de menu com a utilidade de conectar o site-->
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="HOME_G-tech.html" class="logo"><img src="Logoamostra(versão_png).png" alt="40" width="40"> </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="HOME_G-tech.html" class="nav-link">início</a></li>
+                    <li class="nav-item"><a href="Sobre nós G-TECH.html" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="Jogos G-TECH.html" class="nav-link">Jogos</a></li>
+                    <li class="nav-item"><a href="funcionarios.html" class="nav-link">funcionarios</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <button><a href="Começar.html">Login</a></button>
+            </div>
+        </header> 
+        <!--Comando utilizado para criação de uma section chamada area-login-->
+    <section class="area-login">  
+        <!--Comando utilizado para criação de classe chamada login-->
+        <div class="login">
+            <div>
+                <!--Codigo para adicionar a imagem da logo da empresa junto com um link para outra pagina-->
+                <a href="HOME_G-tech.html" class="logo"><img src="Logoamostra(versão_png).png"></a>
+            </div>
+  <!--criação do formulario para o login do site, nome de usuario, senha e entrar-->
+            <form method="POST">
+                <input type="text" name="nome" placeholder="nome de usuario"autofocus>
+                <input type="password" name="senha" placeholder="sua senha">
+                <input type="submit" value="entrar">
+            </form>
+            <!--codigo utilizado para caso o cliente nn tenha conta-->
+        <p>ainda não tem uma conta<a href="">criar conta</a></p>    
+        </div>
+    </section>
+</body>
+</html>

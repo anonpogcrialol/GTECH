@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- link a páin-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--div que cria o título do jogo na página-->
+
+    <h1>SUDOKO G-TECH</h1>
+
+    <!--div que cria os quadrados que abrigam os números no jogo-->
+
+    <div id="main">
+        <div id="row1">
+           <div id="box1" class="box"></div>
+           <div id="box2" class="box"></div>
+           <div id="box3" class="box"></div> 
+        </div>
+        <div id="row2">
+            <div id="box4" class="box"></div>
+            <div id="box5" class="box"></div>
+            <div id="box6" class="box"></div>
+        </div>
+        <div id="row3">
+            <div id="box7" class="box"></div>
+            <div id="box8" class="box"></div>
+            <div id="box9" class="box"></div>
+        </div>
+    </div>
+    <!--div que cria os botões da página do jogo-->
+
+    <button type="button" id="start" onclick="start()">COMEÇAR</button>
+    <button type="button" id="replay" onclick="replay()">NOVO JOGO</button>
+    <button type="button" id="answer" onclick="answer()">RESPOSTA</button>
+
+    <!--div que cria os botões de escolha de dificuldade-->
+
+    <div id="game_type">
+        <h3>ESCOLHA A DIFICULDADE:</h3>
+        <label><input type="radio" id="easy" class="label" name="diff_level" checked> Fácil</label>
+        <label><input type="radio" id="medium" class="label" name="diff_level" > Médio</label>
+        <label><input type="radio" id="hard" class="label" name="diff_level"> Difícil</label>
+
+    <!--div que cria os botões de escolha de tempo-->
+        <h3>TEMPO:</h3>
+        <label><input type="radio" id="time1" class="label" name="time"><span id="time1_min">03</span>:<span id="time1_sec">00</span></label>
+        <label><input type="radio" id="time2" class="label" name="time" checked><span id="time2_min">05</span>:<span id="time2_sec">00</span></label>
+        <label><input type="radio" id="time3" class="label" name="time"> <span id="time3_min">10</span>:<span id="time3_sec">00</span></label>
+        
+        <button type="button" id="help" onclick="help()">COMO JOGAR</button>
+
+    </div>
+    
+    <!-- div que cria o contador de vidas-->
+
+    <div id="lives">VOCÊ TEM <span id="rem_live">3</span> VIDAS</div>
+
+    <!-- div que cria o contador de tempo-->
+
+    <div id="timer">Tempo Restante: <span id="time_min">00</span>:<span id="time_sec">00</span></div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

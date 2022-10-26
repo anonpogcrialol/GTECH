@@ -1,0 +1,62 @@
+/* comando utilizado para personalizar qualquer tipo de elemento presente no site*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 0cm;
+}
+
+
+/* comando utilizado para personalizar os codigos que estão dentro do header*/
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('transferir.jpg');
+    background-position: center;
+    background-size: cover;
+}
+/* codigo utilizado para personalizar os comandos que estão dentro do comando A*/
+a{
+    text-decoration: none;
+}
+/* comando utilizado para personalizar os codigos que estão atribuidos em menu dentro do header*/
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+
+
+
+
+
+
+/* comando utilizado para personalizar os comandos que estão dentro do section class chamada principal*/
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* comando utilizado para personalizar os comandos que estão dentro do section class chamada principal e com o comando H2 atribuido*/
+.principal h2{
+    color: white;
+    font-size: 45px;
+
+}
+/* comando utilizado para personalizar os comandos que estão dentro do section class chamada principal e div class chamada links, e estão em comando A atribuido*/
+.principal .links a{
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: 200ms;
+}
